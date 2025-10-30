@@ -123,7 +123,7 @@ const App = () => {
       </div>
       <footer className="items-center mt-60 px-24">
         <div className="flex justify-between">
-          <p className="text-sm text-[#939EA4]">&copy;yourcompany </p>
+          <p className="text-sm text-[#939EA4]">Copyright &copy; 2025 Michael </p>
           <h1 className="text-[#37447E] text-2xl font-bold">Landing</h1>
           <button className='bg-[#111B47] text-white px-10 py-2 rounded-md font-medium'>Buy now</button>
         </div>
