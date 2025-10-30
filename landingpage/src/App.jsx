@@ -15,16 +15,7 @@ const App = () => {
         <h1 className="text-[#37447E] text-2xl font-bold">Landing</h1>
         <button className='bg-[#111B47] text-white px-10 py-2 rounded-md font-medium'>Buy now</button>
       </header> 
-      <header className="flex justify-between items-center bg-lime-400 px-2">
-        <div className="flex space-x-6 text-slate-100">
-          <h3>Home</h3>
-          <h3>About</h3>
-          <h3>Contact</h3>
-
-        </div>
-        <h3 className="text-black font-bold">Landing</h3>
-        <button className="bg-green-200 px-5 py-1 rounded-md text-blue-600">Buy Now</button>
-      </header>
+      
       {/* BACKGROUND IMAGE */}
       <img
         src="/herobackground.svg"
@@ -119,6 +110,40 @@ const App = () => {
             sem. Nulla consequat massa quis enim.`}
         havebutton={true}
       />
+       <img src="pricebackground.svg" alt="pricebackgroundimage" className="w-[100%] object-cover absolute" />
+      <div className="text-center ">
+        <h2 className="text-[#091133] text-3xl font-medium mt-40 p-5">A Price To Suit Everyone</h2>
+       <p className="text-[#6F7CB2] text-[16px] font-normal text-wrap items-center ml-80 mr-80 ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+        <p className="text-[#222F65] text-3xl font-semibold pt-5">$40</p>
+        <p className="text-[#37447E] text-[16px] font-normal ">UI Design Kit</p>
+        <p className="text-[#5D6970] text-[16px] font-normal pb-2 pt-10">See, One price. Simple.</p>
+        <div className="space-x-4 flex items-center justify-center">
+            <Button title="Purchase Now"/>         
+         </div>
+      </div>
+      <footer className="items-center mt-60 px-24">
+        <div className="flex justify-between">
+          <p className="text-sm text-[#939EA4]">&copy;yourcompany </p>
+          <h1 className="text-[#37447E] text-2xl font-bold">Landing</h1>
+          <button className='bg-[#111B47] text-white px-10 py-2 rounded-md font-medium'>Buy now</button>
+        </div>
+        <div className="flex justify-between mt-10 mb-5">
+        <div className="flex space-x-5">
+        <h1 className="text-[#505F98] text-sm font-normal">Home</h1>
+          <h1 className="text-[#505F98] text-sm font-normal">About</h1>
+          <h1 className="text-[#505F98] text-sm font-normal">Contact</h1>
+          </div>
+          <div className="flex space-x-3 " >
+          <img src="/facebook.svg" alt="Facebook Logo" />
+          <img src="/Instagram.svg" alt="instagram logo" />
+          <img src="linklin.svg" alt="linklin logo" />
+          <img src="youtube.svg" alt="youtube logo" />
+          <img src="twitter.svg" alt="twitter logo" />
+
+          </div>
+          
+          </div>
+      </footer>
     </div>
   );
 };
